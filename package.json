@@ -1,0 +1,40 @@
+{
+  "name": "20-day-challenge",
+  "version": "1.0.0",
+  "description": "it contains all the packages i'll use in my project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "project_1": "npx tailwindcss -i ./1/tailwind_input.css -o ./1/style.css --watch",
+    "dev1": "webpack-dev-server --mode development --open --hot --config ./1/webpack.config.js",
+    "dev2": "webpack-dev-server --open --hot --port 5173 --config ./2/webpack.config.js",
+    "dev3": "webpack-dev-server --open --hot --port 5173 --config ./3/webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.9",
+    "autoprefixer": "^10.4.20",
+    "framer-motion": "^11.11.15",
+    "gsap": "^3.12.5",
+    "lenis": "^1.1.18",
+    "postcss": "^8.4.49",
+    "postcss-loader": "^8.1.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0",
+    "tailwindcss": "^3.4.14",
+    "uuid": "^11.0.3"
+  },
+  "devDependencies": {
+    "babel-loader": "^9.2.1",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.3",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  }
+}
