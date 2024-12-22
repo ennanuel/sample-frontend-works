@@ -662,21 +662,21 @@ export default function App() {
                                     <span className="flex-1"></span>
                                     <div className="flex flex-col relative before:absolute before:top-1/2 before:-translate-y-1/2 before:right-20 before:z-[10] before:w-40 before:h-[1px] before:bg-gradient-to-l before:from-white/10 before:via-white/20 before:to-white/10">
                                         <span className="relative w-20 flex aspect-square rounded-full p-[1px] bg-gradient-to-br from-white/20 to-white/5 before:absolute before:top-[calc(50%_-_1px)] before:right-full before:w-1/2 before:h-[64px] before:rounded-tl-[30px] before:bg-gradient-to-b before:from-white/20 before:to-white/10 after:absolute after:top-1/2 after:right-full after:w-[calc(50%_-_1px)] after:h-[64px] after:rounded-tl-[30px] after:bg-black">
-                                            <span className="rounded-full w-full h-full block p-4 bg-black">
+                                            <span className="rounded-full w-full min-h-full block p-4 bg-black">
                                                 <span className="rounded-full bg-white/10 w-full h-full flex items-center justify-center">
                                                     <GoPeople size={20} />
                                                 </span>
                                             </span>
                                         </span>
                                         <span className="relative ml-16 -mt-4 w-20 flex aspect-square rounded-full p-[1px] bg-gradient-to-br from-white/20 to-white/5">
-                                            <span className="rounded-full w-full h-full block p-4 bg-black">
+                                            <span className="rounded-full w-full min-h-full block p-4 bg-black">
                                                 <span className="rounded-full bg-white/10 w-full h-full flex items-center justify-center">
                                                     <PiMoneyLight size={20} />
                                                 </span>
                                             </span>
                                         </span>
                                         <span className="relative -mt-4 w-20 flex aspect-square rounded-full p-[1px] bg-gradient-to-br from-white/20 to-white/5 before:absolute before:bottom-[calc(50%_-_1px)] before:right-full before:w-1/2 before:h-[64px] before:rounded-bl-[30px] before:bg-gradient-to-t before:from-white/20 before:to-white/10 after:absolute after:bottom-1/2 after:right-full after:w-[calc(50%_-_1px)] after:h-[64px] after:rounded-bl-[30px] after:bg-black">
-                                            <span className="rounded-full w-full h-full block p-4 bg-black">
+                                            <span className="rounded-full w-full min-h-full block p-4 bg-black">
                                                 <span className="rounded-full bg-white/10 w-full h-full flex items-center justify-center">
                                                     <HiOutlineDocumentChartBar size={20} />
                                                 </span>
@@ -827,7 +827,7 @@ export default function App() {
                                 }
                             </p>
                         </div> 
-                    </div>             
+                    </div>           
                     <ul className="w-full flex-1 mt-20 grid grid-rows-2 grid-cols-5 gap-6">
                         {
                             WHY_CHOOSE_US.map(({ title, desc, image, gradient }, index) => (
