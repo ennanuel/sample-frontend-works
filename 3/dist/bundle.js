@@ -3271,11 +3271,11 @@ module.exports = new EventEmitter();
 
 /***/ }),
 
-/***/ "./node_modules/webpack/hot/lazy-compilation-web.js?http%3A%2F%2Flocalhost%3A57090%2Flazy-compilation-using-":
+/***/ "./node_modules/webpack/hot/lazy-compilation-web.js?http%3A%2F%2Flocalhost%3A49748%2Flazy-compilation-using-":
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
-var __resourceQuery = "?http%3A%2F%2Flocalhost%3A57090%2Flazy-compilation-using-";
+var __resourceQuery = "?http%3A%2F%2Flocalhost%3A49748%2Flazy-compilation-using-";
 /* global __resourceQuery */
 
 
@@ -3507,7 +3507,7 @@ module.exports.formatError = function (err) {
 /***/ "./3/index.js!lazy-compilation-proxy":
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-var client = __webpack_require__("./node_modules/webpack/hot/lazy-compilation-web.js?http%3A%2F%2Flocalhost%3A57090%2Flazy-compilation-using-")
+var client = __webpack_require__("./node_modules/webpack/hot/lazy-compilation-web.js?http%3A%2F%2Flocalhost%3A49748%2Flazy-compilation-using-")
 var data = "C:/Users/win/Desktop/Coding_projects/20-day-challenge/node_modules/babel-loader/lib/index.js!C:/Users/win/Desktop/Coding_projects/20-day-challenge/3/index.js";
 module.exports = Promise.all(/* import() */[__webpack_require__.e("vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-13c62e"), __webpack_require__.e("3_index_js")]).then(__webpack_require__.bind(__webpack_require__, "./3/index.js"));
 if (module.hot) {
@@ -3625,7 +3625,7 @@ var dispose = client.keepAlive({ data: data, active: true, module: module, onErr
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("3ea0e5acd5efc2d7580b")
+/******/ 		__webpack_require__.h = () => ("4dd361e4c2897ff1abb9")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
